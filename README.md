@@ -1,4 +1,3 @@
-
 <h1 align="center">Hey 👋What's Up?</h1>
 
 ###
@@ -48,11 +47,4 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/IL1RO3/IL1RO3/output/pacman-contribution-graph.svg">
 </picture>
 
----
-
-**My Social Media:**
-
-- **Twitter**: [IRoozban](https://twitter.com/IRoozban)
-- **Telegram**: [IL1RO3](https://t.me/IL1RO3)
-- **LinkedIn**: [Ilia Roozban](https://www.linkedin.com/in/ilia-roozban)
-- **Discord**: [neraxd77](https://discord.com/users/neraxd77)
+###
