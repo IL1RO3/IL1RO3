@@ -1,0 +1,177 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg {
+      fill: #0d1117;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .prompt {
+      fill: #3fb950;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .cursor {
+      fill: #3fb950;
+      animation: blink 1.1s step-end infinite;
+    }
+    .name {
+      fill: #f0f6fc;
+      font-size: 54px;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+    .subtitle {
+      fill: #8b949e;
+      font-size: 21px;
+      font-weight: 400;
+    }
+    .htop-header {
+      fill: #238636;
+      opacity: 0.25;
+    }
+    .htop-header-text {
+      fill: #8b949e;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .htop-label {
+      fill: #58a6ff;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .htop-dim {
+      fill: #484f58;
+      font-size: 11px;
+    }
+    .htop-row {
+      fill: #6e7681;
+      font-size: 11px;
+    }
+    .htop-active {
+      fill: #3fb950;
+      font-size: 11px;
+    }
+    .bar-track {
+      stroke: #30363d;
+      stroke-width: 1;
+      fill: #161b22;
+    }
+    .cpu-bar-1 {
+      fill: #3fb950;
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: pulseCpu1 3.2s ease-in-out infinite alternate;
+    }
+    .cpu-bar-2 {
+      fill: #58a6ff;
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: pulseCpu2 2.5s ease-in-out infinite alternate;
+    }
+    .mem-bar {
+      fill: #d29922;
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: pulseMem 4.5s ease-in-out infinite alternate;
+    }
+    .wave-1 {
+      stroke: #3fb950;
+      stroke-width: 1.5;
+      stroke-opacity: 0.45;
+      fill: none;
+      stroke-dasharray: 12 6;
+      animation: flowDash 8s linear infinite;
+    }
+    .wave-2 {
+      stroke: #58a6ff;
+      stroke-width: 1.2;
+      stroke-opacity: 0.3;
+      fill: none;
+      stroke-dasharray: 8 8;
+      animation: flowDashReverse 11s linear infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes pulseCpu1 {
+      0% { transform: scaleX(0.35); }
+      50% { transform: scaleX(0.85); }
+      100% { transform: scaleX(0.55); }
+    }
+    @keyframes pulseCpu2 {
+      0% { transform: scaleX(0.7); }
+      60% { transform: scaleX(0.25); }
+      100% { transform: scaleX(0.95); }
+    }
+    @keyframes pulseMem {
+      0% { transform: scaleX(0.75); }
+      100% { transform: scaleX(0.92); }
+    }
+    @keyframes flowDash {
+      to { stroke-dashoffset: -180; }
+    }
+    @keyframes flowDashReverse {
+      to { stroke-dashoffset: 160; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="rightFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="1" />
+      <stop offset="12%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="88%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="bottomFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="75%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" class="bg" />
+
+  <path d="M 560 95 Q 680 65, 800 95 T 1040 95 T 1200 95" class="wave-1" />
+  <path d="M 560 103 Q 680 128, 800 103 T 1040 103 T 1200 103" class="wave-2" />
+
+  <g transform="translate(48, 76)">
+    <text x="0" y="0" class="mono prompt">IL1RO3@nera:~$</text>
+    <rect x="212" y="-20" width="12" height="24" class="cursor" />
+
+    <text x="0" y="68" class="mono name">Ilia Roozban</text>
+    <text x="2" y="114" class="mono subtitle">Backend &amp; Systems Engineering</text>
+  </g>
+
+  <g transform="translate(610, 32)">
+    <text x="0" y="12" class="mono htop-label">CPU0</text>
+    <rect x="38" y="2" width="160" height="12" rx="2" class="bar-track" />
+    <rect x="40" y="4" width="150" height="8" rx="1" class="cpu-bar-1" />
+
+    <text x="0" y="30" class="mono htop-label">CPU1</text>
+    <rect x="38" y="20" width="160" height="12" rx="2" class="bar-track" />
+    <rect x="40" y="22" width="150" height="8" rx="1" class="cpu-bar-2" />
+
+    <text x="220" y="12" class="mono htop-label">MEM</text>
+    <rect x="252" y="2" width="160" height="12" rx="2" class="bar-track" />
+    <rect x="254" y="4" width="150" height="8" rx="1" class="mem-bar" />
+
+    <text x="220" y="30" class="mono htop-dim">Tasks: 42, 1 running</text>
+    <text x="430" y="12" class="mono htop-dim">Uptime: 99.98%</text>
+    <text x="430" y="30" class="mono htop-dim">Host: debian/fish</text>
+
+    <rect x="0" y="84" width="560" height="18" rx="2" class="htop-header" />
+    <text x="8" y="96" class="mono htop-header-text">PID    USER      CPU%   MEM%   TIME+     COMMAND</text>
+
+    <text x="8" y="116" class="mono htop-active">1024   iliro     4.2    1.8    12:04.11  /usr/bin/python3 manage.py runserver</text>
+    <text x="8" y="134" class="mono htop-row">1108   postgres  1.9    3.4    08:41.02  postgres: writer process</text>
+    <text x="8" y="152" class="mono htop-row">1240   iliro     1.1    0.9    03:19.45  ./hookbox --listen :8080</text>
+    <text x="8" y="170" class="mono htop-row">1392   redis     0.4    0.6    05:12.88  redis-server 127.0.0.1:6379</text>
+    <text x="8" y="188" class="mono htop-row">1455   root      0.2    1.2    01:55.30  /usr/bin/dockerd -H fd://</text>
+    <text x="8" y="206" class="mono htop-dim">1510   iliro     0.0    0.3    00:14.09  nvim README.md</text>
+  </g>
+
+  <rect x="580" y="0" width="620" height="280" fill="url(#rightFade)" />
+  <rect x="0" y="0" width="1200" height="280" fill="url(#bottomFade)" />
+</svg>
