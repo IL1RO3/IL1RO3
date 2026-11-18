@@ -5,9 +5,21 @@
   <br /><br />
 
   <!-- Tech Stack -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,py,django,fastapi,postgres,redis,docker,linux,neovim,git&theme=dark" alt="Tech Stack" />
-  </a>
+  <div align="center" style="padding: 20px;">
+
+  <img src="https://www.getdevicons.com/assets/icons/png/Python.png" width="48" height="48" alt="Python" />
+  <img src="https://www.getdevicons.com/assets/icons/png/PostgresSQL.png" width="48" height="48" alt="PostgreSQL" />
+  <img src="https://www.getdevicons.com/assets/icons/png/Django.png" width="48" height="48" alt="Django" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg" width="48" height="48" alt="DRF" />
+  <img src="https://www.getdevicons.com/assets/icons/png/Redis.png" width="48" height="48" alt="Redis" />
+  <img src="https://www.getdevicons.com/assets/icons/png/Docker.png" width="48" height="48" alt="Docker" />
+  <img src="https://www.getdevicons.com/assets/icons/png/Linux.png" width="48" height="48" alt="Linux" />
+  <img src="https://www.getdevicons.com/assets/icons/png/Node.js.png" width="48" height="48" alt="Node.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="48" height="48" alt="Express.js" />
+  <img src="https://www.getdevicons.com/assets/icons/png/MongoDB.png" width="48" height="48" alt="MongoDB" />
+  <img src="https://www.getdevicons.com/assets/icons/png/Git.png" width="48" height="48" alt="Git" />
+
+  </div>
 
   <br /><br />
 
