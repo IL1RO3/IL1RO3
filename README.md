@@ -1,17 +1,10 @@
 <div align="center">
-  <!-- Custom GitHub Profile Banner -->
-  <img src="./banner.jpeg" alt="Ilia Roozban - Backend & Systems Engineering Banner" width="100%" />
+  <!-- Animated Dark-Mode Terminal Banner -->
+  <img src="https://raw.githubusercontent.com/IL1RO3/IL1RO3/main/gemini-svg.svg" alt="Ilia Roozban - Backend & Systems Engineering" width="100%" />
 
   <br /><br />
 
-  <!-- Animated Typing Intro -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1200&color=3FB950&center=true&vCenter=true&width=650&lines=Building+backends+to+pay+the+bills.;Breaking+things+at+the+low+level+for+fun.;Django+%7C+Django+REST+Framework+%7C+Go+%7C+Python;PostgreSQL+%7C+Docker+%7C+Linux+%7C+Redis+%7C+Neovim" alt="Ilia Roozban's Intro" />
-  </a>
-
-  <br />
-
-  <!-- Tech Stack (Uniform SkillIcons matching your profile) -->
+  <!-- Tech Stack -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=go,py,django,fastapi,postgres,redis,docker,linux,neovim,git&theme=dark" alt="Tech Stack" />
   </a>
@@ -20,12 +13,12 @@
 
   <!-- Social & Contact Badges -->
   <a href="https://www.linkedin.com/in/ilia-roozban-85111b218" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://x.com/IRoozban" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (formerly Twitter)" />
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-  <a href="https://t.me/yourtelegram" target="_blank"> <!-- Change this to your actual Telegram handle if it differs -->
+  <a href="https://t.me/yourtelegram" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
   <a href="mailto:roozbanilia@gmail.com">
@@ -43,15 +36,15 @@
 
 <br />
 
-<!-- GitHub Stats & Languages Side-by-Side (Styled for GitHub Dark #0d1117) -->
+<!-- GitHub Stats & Languages Side-by-Side -->
 <div align="center">
   <table border="0">
     <tr>
       <td width="50%" align="center">
-        <img height="165" src="https://github-readme-stats.vercel.app/api?username=IL1RO3&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&hide_rank=true" alt="Ilia's GitHub Stats" />
+        <img height="165" src="https://github-readme-stats.vercel.app/api?username=IL1RO3&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&hide_rank=true" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center">
-        <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IL1RO3&layout=compact&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9" alt="Ilia's Top Languages" />
+        <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IL1RO3&layout=compact&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
       </td>
     </tr>
   </table>
