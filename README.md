@@ -1,38 +1,58 @@
-<h1 align="center">Hey 👋What's Up?</h1>
-
-###
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="60" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="60" alt="django logo"  />
-  <img width="12" />
-  <img src="https://www.django-rest-framework.org/img/logo.png" height="60" alt="Django REST Framework logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="60" alt="vim logo"  />
-  
+  <!-- Custom GitHub Profile Banner -->
+  <img src="./banner.jpeg" alt="Ilia Roozban - Backend & Systems Engineering Banner" width="100%" />
+
+  <br /><br />
+
+  <!-- Animated Typing Intro -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1200&color=3FB950&center=true&vCenter=true&width=650&lines=Building+backends+to+pay+the+bills.;Breaking+things+at+the+low+level+for+fun.;Django+%7C+Django+REST+Framework+%7C+Go+%7C+Python;PostgreSQL+%7C+Docker+%7C+Linux+%7C+Redis+%7C+Neovim" alt="Ilia Roozban's Intro" />
+  </a>
+
+  <br />
+
+  <!-- Tech Stack (Uniform SkillIcons matching your profile) -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=go,py,django,fastapi,postgres,redis,docker,linux,neovim,git&theme=dark" alt="Tech Stack" />
+  </a>
+
+  <br /><br />
+
+  <!-- Social & Contact Badges -->
+  <a href="https://www.linkedin.com/in/ilia-roozban-85111b218" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/IRoozban" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (formerly Twitter)" />
+  </a>
+  <a href="https://t.me/yourtelegram" target="_blank"> <!-- Change this to your actual Telegram handle if it differs -->
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
+  <a href="mailto:roozbanilia@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </div>
 
-###
+<hr style="border: 1px solid #30363d;" />
 
+### 🛠️ About Me
+
+* 🧑‍💻 **Backend Developer** focused on server performance, API architecture, and database operations.
+* ⚙️ Passionate about **low-level computing**, system processes, and optimizing workloads on Linux.
+* 🛠️ Building utility packages like [hookbox](https://github.com/IL1RO3/hookbox) and Django tools.
+
+<br />
+
+<!-- GitHub Stats & Languages Side-by-Side (Styled for GitHub Dark #0d1117) -->
 <div align="center">
-  <a href="https://www.linkedin.com/in/ilia-roozban-85111b218/">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://open.spotify.com/user/31oqjatgwodkg2z5zvae4ie4ekoy?si=8ab09536645846e0">
-    <img src="https://img.shields.io/static/v1?message=Spotify&logo=spotify&label=&color=000000&logoColor=1DB954&labelColor=&style=for-the-badge" height="25" alt="spotify logo"  />
-  </a>
-  <a href="https://x.com/IRoozban">
-    <img src="https://img.shields.io/static/v1?message=X&logo=x&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  </a>
-  <a href="https://t.me/IL1RO3">
-    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
-  </a>
+  <table border="0">
+    <tr>
+      <td width="50%" align="center">
+        <img height="165" src="https://github-readme-stats.vercel.app/api?username=IL1RO3&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&hide_rank=true" alt="Ilia's GitHub Stats" />
+      </td>
+      <td width="50%" align="center">
+        <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IL1RO3&layout=compact&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9" alt="Ilia's Top Languages" />
+      </td>
+    </tr>
+  </table>
 </div>
