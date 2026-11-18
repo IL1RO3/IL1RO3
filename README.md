@@ -20,7 +20,7 @@
     &nbsp;&nbsp;
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg" width="48" height="48" alt="DRF" />
     &nbsp;&nbsp;
-    <img src="https://www.getdevicons.com/assets/icons/png/Redis.png" width="48" height="48" alt="Redis" />
+    <img src="https://www.getdevicons.com/assets/icons/png/Go.png" width="48" height="48" alt="Golang" />
     &nbsp;&nbsp;
     <img src="https://www.getdevicons.com/assets/icons/png/Docker.png" width="48" height="48" alt="Docker" />
     &nbsp;&nbsp;
